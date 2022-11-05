@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Website 3</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <style>
+        nav {
+            margin-top:0%;
+            background-color:black;
+            overflow: hidden;
+        }
+        nav a {
+            text-decoration:none;
+            color:white;
+            font-size:15px;
+            padding:20px 50px 20px 100px;
+            text-align:center;
+            float:left;
+            cursor: pointer;
+        }
+
+        a:hover {
+            background-color: rgb(176, 176, 176);
+        }
+        body {
+            margin:0%;
+            font-family: 'Inconsolata', Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        button{
+            font-size:20px;
+            color:white;
+            background-color:black;
+            border: 1px solid black;
+            width:200px;
+            height:32px;
+            font-family: 'Inconsolata', Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        footer {
+            text-align:center;
+            background-color:white;
+            height:10px;
+            padding:50px;
+            font-family: 'Inconsolata', Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .thecafe {
+            background-image: url("img/coffeehouse.jpg");
+            background-size: 100% 400px;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 350px;
+        }
+        .cafe1 {
+            display: inline;
+            color: white;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/htmlwebsite3.html">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#menu">MENU</a>
+        <a href="map.html">WHERE</a>
+        <a href="reserveseat.html">RESERVE SEAT</a>
+    </nav>
+    <div class="thecafe">
+        <div class="cafe1">THE</div>
+        <div class="cafe2">CAFE</div>
+        <div class="time">Open from 10am to 09pm</div>
+        <div class="add">15 adr street, 5015</div>
+    </div>
+    <section id="about">
+    <button style="margin: 20px 0px 0px 400px;">ABOUT THE CAFE</button><br><br><br><br>
+    <table align="center" style="width:500px; height:500px;">
+        <tr>
+            <td>The Cafe was founded inblabla by Mr. Smith in lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </td>
+        </tr>
+        <tr>
+            <td>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</td>
+        </tr>
+        <tr>
+            <td style="background-color:lightgray;">"Use products from nature for what it's worth - but never too early, nor<br>
+                too late." Fresh is the new sweet.<br>
+                Chef, Coffeeist and Owner: Liam Brown
+            </td>
+        </tr>
+        <tr style="height:30px;">
+            <td></td>
+        </tr>
+        <tr>
+            <td><img src="img/coffeeshop.jpg" alt="coffeeshop" width="600px" height="300px"></td>
+        </tr>
+        <tr style="height:30px;">
+            <td><b>Opening hours:</b> everyday from 6am to 5pm.</td>
+        </tr>
+        <tr>
+            <td><b>Address:</b> 15 Adr street, 5015, NY</td>
+        </tr>
+    </table>
+    </section>
+    <section id="menu">
+    <button style="margin: 30px 0px 10px 420px; width:100px;">THE MENU</button><br><br><br>
+    <table align="center" style="width:600px; height:100px; background-color:lightgrey; text-align:left; border-collapse: collapse;">
+        <tr>
+            <th style="width:250px; height:50px; text-align:center; border: 2px solid black; border-radius:5px;">* EAT *</th>
+            <th style="width:250px; height:50px; text-align:center; border: 2px solid black; border-radius: 2px;">* DRINK *</th>
+        </tr>
+        <tr>
+            <td>Bread Basket <br>
+                (Assortment of fresh baked fruit breads and muffins 5.50)
+            </td>
+            <td>Coffee <br>
+                (Regular coffee 2.50)
+            </td>
+        </tr>
+        <tr>
+            <td>Honey Almond Granola with Fruits <br>
+                (atural cereal of honey toasted oats, raisins, almonds and dates 7.00)
+            </td>
+            <td>Chocolato <br>
+                (Chocolate espresso with milk 4.50)</td>
+        </tr>
+        <tr>
+            <td>Belgian Waffle <br>
+                (Vanilla flavored batter with malted flour 7.50)</td>
+            <td>Corretto <br>
+                (Whiskey and coffee 5.00)</td>
+        </tr>
+        <tr>
+            <td>Scrambled eggs <br>
+            (Scrambled eggs, roasted red pepper and garlic, with green onions 7.50)</td>
+            <td>Iced tea <br>
+            (Hot tea, except not hot 3.00)</td>
+        </tr>
+        <tr>
+            <td>Blueberry Pancakes <br>
+            (With syrup, butter and lots of berries 8.50)</td>
+            <td>Soda <br>
+            (Coke, Sprite, Fanta, etc. 2.50)</td>
+        </tr>
+    </table>
+    <table align="center" style="width:600px; height:400px;">
+        <tr>
+            <td><img src="img/coffeehouse2.jpg" alt="coffeehouse2" width="600px" height="300px"></td>
+        </tr>
+    </table>
+    </section>
+    <footer>
+        powered by <b><u>Meazy</u></b>
+    </footer>
+</body>
+</html>
